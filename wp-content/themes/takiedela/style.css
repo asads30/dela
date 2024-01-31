@@ -1,0 +1,57 @@
+/*!
+Theme Name: TakieDela
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: takiedela
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+TakieDela is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+nav.navigation.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav.navigation.pagination .page-numbers{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: 'FuturaDemi';
+    color: #302F2D;
+    text-decoration: none;
+}
+
+nav.navigation.pagination .page-numbers:hover{
+    color: #E65639;
+}
+
+nav.navigation.pagination .page-numbers.current{
+    color: #E65639;
+}
+
+nav.navigation.pagination .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
